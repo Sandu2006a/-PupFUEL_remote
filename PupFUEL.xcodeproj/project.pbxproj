@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A2F16C2A5459D3006285BF /* PupFUELApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2F16B2A5459D3006285BF /* PupFUELApp.swift */; };
+		18A2F16E2A5459D3006285BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2F16D2A5459D3006285BF /* ContentView.swift */; };
+		18A2F1702A5459D5006285BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F16F2A5459D5006285BF /* Assets.xcassets */; };
+		18A2F1732A5459D5006285BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F1722A5459D5006285BF /* Preview Assets.xcassets */; };
+		18A2F1752A5459D5006285BF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2F1742A5459D5006285BF /* Persistence.swift */; };
+		18A2F1782A5459D5006285BF /* PupFUEL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18A2F1762A5459D5006285BF /* PupFUEL.xcdatamodeld */; };
+		18A2F1822A5459D6006285BF /* PupFUELTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2F1812A5459D6006285BF /* PupFUELTests.swift */; };
+		18A2F18C2A5459D6006285BF /* PupFUELUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2F18B2A5459D6006285BF /* PupFUELUITests.swift */; };
+		18A2F18E2A5459D6006285BF /* PupFUELUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2F18D2A5459D6006285BF /* PupFUELUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A2F17E2A5459D6006285BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A2F1602A5459D3006285BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A2F1672A5459D3006285BF;
+			remoteInfo = PupFUEL;
+		};
+		18A2F1882A5459D6006285BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A2F1602A5459D3006285BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A2F1672A5459D3006285BF;
+			remoteInfo = PupFUEL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A2F1682A5459D3006285BF /* PupFUEL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PupFUEL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A2F16B2A5459D3006285BF /* PupFUELApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PupFUELApp.swift; sourceTree = "<group>"; };
+		18A2F16D2A5459D3006285BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18A2F16F2A5459D5006285BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A2F1722A5459D5006285BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18A2F1742A5459D5006285BF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		18A2F1772A5459D5006285BF /* PupFUEL.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PupFUEL.xcdatamodel; sourceTree = "<group>"; };
+		18A2F17D2A5459D6006285BF /* PupFUELTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PupFUELTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A2F1812A5459D6006285BF /* PupFUELTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PupFUELTests.swift; sourceTree = "<group>"; };
+		18A2F1872A5459D6006285BF /* PupFUELUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PupFUELUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A2F18B2A5459D6006285BF /* PupFUELUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PupFUELUITests.swift; sourceTree = "<group>"; };
+		18A2F18D2A5459D6006285BF /* PupFUELUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PupFUELUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A2F1652A5459D3006285BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A2F17A2A5459D6006285BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A2F1842A5459D6006285BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A2F15F2A5459D3006285BF = {
+			isa = PBXGroup;
+			children = (
+				18A2F16A2A5459D3006285BF /* PupFUEL */,
+				18A2F1802A5459D6006285BF /* PupFUELTests */,
+				18A2F18A2A5459D6006285BF /* PupFUELUITests */,
+				18A2F1692A5459D3006285BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A2F1692A5459D3006285BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A2F1682A5459D3006285BF /* PupFUEL.app */,
+				18A2F17D2A5459D6006285BF /* PupFUELTests.xctest */,
+				18A2F1872A5459D6006285BF /* PupFUELUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A2F16A2A5459D3006285BF /* PupFUEL */ = {
+			isa = PBXGroup;
+			children = (
+				18A2F16B2A5459D3006285BF /* PupFUELApp.swift */,
+				18A2F16D2A5459D3006285BF /* ContentView.swift */,
+				18A2F16F2A5459D5006285BF /* Assets.xcassets */,
+				18A2F1742A5459D5006285BF /* Persistence.swift */,
+				18A2F1762A5459D5006285BF /* PupFUEL.xcdatamodeld */,
+				18A2F1712A5459D5006285BF /* Preview Content */,
+			);
+			path = PupFUEL;
+			sourceTree = "<group>";
+		};
+		18A2F1712A5459D5006285BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18A2F1722A5459D5006285BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18A2F1802A5459D6006285BF /* PupFUELTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A2F1812A5459D6006285BF /* PupFUELTests.swift */,
+			);
+			path = PupFUELTests;
+			sourceTree = "<group>";
+		};
+		18A2F18A2A5459D6006285BF /* PupFUELUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A2F18B2A5459D6006285BF /* PupFUELUITests.swift */,
+				18A2F18D2A5459D6006285BF /* PupFUELUITestsLaunchTests.swift */,
+			);
+			path = PupFUELUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A2F1672A5459D3006285BF /* PupFUEL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A2F1912A5459D6006285BF /* Build configuration list for PBXNativeTarget "PupFUEL" */;
+			buildPhases = (
+				18A2F1642A5459D3006285BF /* Sources */,
+				18A2F1652A5459D3006285BF /* Frameworks */,
+				18A2F1662A5459D3006285BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PupFUEL;
+			productName = PupFUEL;
+			productReference = 18A2F1682A5459D3006285BF /* PupFUEL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A2F17C2A5459D6006285BF /* PupFUELTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A2F1942A5459D6006285BF /* Build configuration list for PBXNativeTarget "PupFUELTests" */;
+			buildPhases = (
+				18A2F1792A5459D6006285BF /* Sources */,
+				18A2F17A2A5459D6006285BF /* Frameworks */,
+				18A2F17B2A5459D6006285BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A2F17F2A5459D6006285BF /* PBXTargetDependency */,
+			);
+			name = PupFUELTests;
+			productName = PupFUELTests;
+			productReference = 18A2F17D2A5459D6006285BF /* PupFUELTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A2F1862A5459D6006285BF /* PupFUELUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A2F1972A5459D6006285BF /* Build configuration list for PBXNativeTarget "PupFUELUITests" */;
+			buildPhases = (
+				18A2F1832A5459D6006285BF /* Sources */,
+				18A2F1842A5459D6006285BF /* Frameworks */,
+				18A2F1852A5459D6006285BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A2F1892A5459D6006285BF /* PBXTargetDependency */,
+			);
+			name = PupFUELUITests;
+			productName = PupFUELUITests;
+			productReference = 18A2F1872A5459D6006285BF /* PupFUELUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A2F1602A5459D3006285BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					18A2F1672A5459D3006285BF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					18A2F17C2A5459D6006285BF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 18A2F1672A5459D3006285BF;
+					};
+					18A2F1862A5459D6006285BF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 18A2F1672A5459D3006285BF;
+					};
+				};
+			};
+			buildConfigurationList = 18A2F1632A5459D3006285BF /* Build configuration list for PBXProject "PupFUEL" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A2F15F2A5459D3006285BF;
+			productRefGroup = 18A2F1692A5459D3006285BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A2F1672A5459D3006285BF /* PupFUEL */,
+				18A2F17C2A5459D6006285BF /* PupFUELTests */,
+				18A2F1862A5459D6006285BF /* PupFUELUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A2F1662A5459D3006285BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A2F1732A5459D5006285BF /* Preview Assets.xcassets in Resources */,
+				18A2F1702A5459D5006285BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A2F17B2A5459D6006285BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A2F1852A5459D6006285BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A2F1642A5459D3006285BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A2F1752A5459D5006285BF /* Persistence.swift in Sources */,
+				18A2F1782A5459D5006285BF /* PupFUEL.xcdatamodeld in Sources */,
+				18A2F16E2A5459D3006285BF /* ContentView.swift in Sources */,
+				18A2F16C2A5459D3006285BF /* PupFUELApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A2F1792A5459D6006285BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A2F1822A5459D6006285BF /* PupFUELTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A2F1832A5459D6006285BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A2F18E2A5459D6006285BF /* PupFUELUITestsLaunchTests.swift in Sources */,
+				18A2F18C2A5459D6006285BF /* PupFUELUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A2F17F2A5459D6006285BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A2F1672A5459D3006285BF /* PupFUEL */;
+			targetProxy = 18A2F17E2A5459D6006285BF /* PBXContainerItemProxy */;
+		};
+		18A2F1892A5459D6006285BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A2F1672A5459D3006285BF /* PupFUEL */;
+			targetProxy = 18A2F1882A5459D6006285BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18A2F18F2A5459D6006285BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18A2F1902A5459D6006285BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A2F1922A5459D6006285BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PupFUEL/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZAG5456H3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CB.PupFUEL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A2F1932A5459D6006285BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PupFUEL/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZAG5456H3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CB.PupFUEL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18A2F1952A5459D6006285BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZAG5456H3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CB.PupFUELTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PupFUEL.app/PupFUEL";
+			};
+			name = Debug;
+		};
+		18A2F1962A5459D6006285BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZAG5456H3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CB.PupFUELTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PupFUEL.app/PupFUEL";
+			};
+			name = Release;
+		};
+		18A2F1982A5459D6006285BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZAG5456H3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CB.PupFUELUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PupFUEL;
+			};
+			name = Debug;
+		};
+		18A2F1992A5459D6006285BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZAG5456H3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CB.PupFUELUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PupFUEL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A2F1632A5459D3006285BF /* Build configuration list for PBXProject "PupFUEL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A2F18F2A5459D6006285BF /* Debug */,
+				18A2F1902A5459D6006285BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A2F1912A5459D6006285BF /* Build configuration list for PBXNativeTarget "PupFUEL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A2F1922A5459D6006285BF /* Debug */,
+				18A2F1932A5459D6006285BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A2F1942A5459D6006285BF /* Build configuration list for PBXNativeTarget "PupFUELTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A2F1952A5459D6006285BF /* Debug */,
+				18A2F1962A5459D6006285BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A2F1972A5459D6006285BF /* Build configuration list for PBXNativeTarget "PupFUELUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A2F1982A5459D6006285BF /* Debug */,
+				18A2F1992A5459D6006285BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18A2F1762A5459D5006285BF /* PupFUEL.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18A2F1772A5459D5006285BF /* PupFUEL.xcdatamodel */,
+			);
+			currentVersion = 18A2F1772A5459D5006285BF /* PupFUEL.xcdatamodel */;
+			path = PupFUEL.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18A2F1602A5459D3006285BF /* Project object */;
+}
