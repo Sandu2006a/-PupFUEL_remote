@@ -16,6 +16,7 @@
 		18A2F1822A5459D6006285BF /* PupFUELTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2F1812A5459D6006285BF /* PupFUELTests.swift */; };
 		18A2F18C2A5459D6006285BF /* PupFUELUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2F18B2A5459D6006285BF /* PupFUELUITests.swift */; };
 		18A2F18E2A5459D6006285BF /* PupFUELUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2F18D2A5459D6006285BF /* PupFUELUITestsLaunchTests.swift */; };
+		18D2C3962A658788004A4122 /*  secondview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2C3952A658788004A4122 /*  secondview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		18A2F1872A5459D6006285BF /* PupFUELUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PupFUELUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A2F18B2A5459D6006285BF /* PupFUELUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PupFUELUITests.swift; sourceTree = "<group>"; };
 		18A2F18D2A5459D6006285BF /* PupFUELUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PupFUELUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18D2C3952A658788004A4122 /*  secondview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " secondview.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				18A2F16B2A5459D3006285BF /* PupFUELApp.swift */,
 				18A2F16D2A5459D3006285BF /* ContentView.swift */,
+				18D2C3952A658788004A4122 /*  secondview.swift */,
 				18A2F16F2A5459D5006285BF /* Assets.xcassets */,
 				18A2F1742A5459D5006285BF /* Persistence.swift */,
 				18A2F1762A5459D5006285BF /* PupFUEL.xcdatamodeld */,
@@ -266,6 +269,7 @@
 				18A2F1752A5459D5006285BF /* Persistence.swift in Sources */,
 				18A2F1782A5459D5006285BF /* PupFUEL.xcdatamodeld in Sources */,
 				18A2F16E2A5459D3006285BF /* ContentView.swift in Sources */,
+				18D2C3962A658788004A4122 /*  secondview.swift in Sources */,
 				18A2F16C2A5459D3006285BF /* PupFUELApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
